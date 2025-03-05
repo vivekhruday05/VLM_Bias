@@ -15,3 +15,8 @@
 `val_data.json:` Contains the data that we could use as validation data for different settings.
 
 `test_data.json:` Contains the data that we could use as test data for different settings.
+
+## Some important points:
+
+- Always do a `git pull` before pushing or making any changes.
+- If using Ada, always run code in some folder of `/scratch` and make sure to do `export HF_HOME=./transformer_cache` after you are in some folder inside `/scratch`.
