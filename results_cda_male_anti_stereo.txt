@@ -1,0 +1,219 @@
+--- Not finetuned using any method ---
+
+Text Prompt:  ['male', 'female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9930
+RA_f (Female Resolution Accuracy): 0.9126
+RA_avg (Average Resolution Accuracy): 0.9528
+GG (Gender Gap): 0.0803
+
+Text Prompt:  ['him', 'her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9874
+RA_avg (Average Resolution Accuracy): 0.9867
+GG (Gender Gap): 0.0015
+
+Text Prompt:  ['he', 'she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9836
+RA_f (Female Resolution Accuracy): 0.9784
+RA_avg (Average Resolution Accuracy): 0.9810
+GG (Gender Gap): 0.0052
+
+Text Prompt:  ['The person in the image is male', 'The person in the image is female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.5798
+RA_f (Female Resolution Accuracy): 0.9856
+RA_avg (Average Resolution Accuracy): 0.7827
+GG (Gender Gap): 0.4058
+
+Text Prompt:  ['The person in the image is him', 'The person in the image is her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9883
+RA_avg (Average Resolution Accuracy): 0.9871
+GG (Gender Gap): 0.0024
+
+Text Prompt:  ['The pronoun of the person in the image is he', 'The pronoun of the person in the image is she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9836
+RA_f (Female Resolution Accuracy): 0.9892
+RA_avg (Average Resolution Accuracy): 0.9864
+GG (Gender Gap): 0.0056
+
+--- Vision frozen ---
+
+Text Prompt:  ['male', 'female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9883
+RA_f (Female Resolution Accuracy): 0.9676
+RA_avg (Average Resolution Accuracy): 0.9779
+GG (Gender Gap): 0.0207
+
+Text Prompt:  ['him', 'her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9856
+RA_avg (Average Resolution Accuracy): 0.9858
+GG (Gender Gap): 0.0003
+
+Text Prompt:  ['he', 'she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9812
+RA_f (Female Resolution Accuracy): 0.9883
+RA_avg (Average Resolution Accuracy): 0.9848
+GG (Gender Gap): 0.0071
+
+Text Prompt:  ['The person in the image is male', 'The person in the image is female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9789
+RA_f (Female Resolution Accuracy): 0.9892
+RA_avg (Average Resolution Accuracy): 0.9840
+GG (Gender Gap): 0.0103
+
+Text Prompt:  ['The person in the image is him', 'The person in the image is her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9883
+RA_avg (Average Resolution Accuracy): 0.9871
+GG (Gender Gap): 0.0024
+
+Text Prompt:  ['The person in the image is he', 'The person in the image is she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9789
+RA_f (Female Resolution Accuracy): 0.9892
+RA_avg (Average Resolution Accuracy): 0.9840
+GG (Gender Gap): 0.0103
+
+--- Text frozen ---
+
+Text Prompt:  ['male', 'female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 1.0000
+RA_f (Female Resolution Accuracy): 0.4811
+RA_avg (Average Resolution Accuracy): 0.7405
+GG (Gender Gap): 0.5189
+
+Text Prompt:  ['him', 'her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9930
+RA_f (Female Resolution Accuracy): 0.9225
+RA_avg (Average Resolution Accuracy): 0.9577
+GG (Gender Gap): 0.0704
+
+Text Prompt:  ['he', 'she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9906
+RA_f (Female Resolution Accuracy): 0.9766
+RA_avg (Average Resolution Accuracy): 0.9836
+GG (Gender Gap): 0.0140
+
+Text Prompt:  ['The person in the image is male', 'The person in the image is female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.7535
+RA_f (Female Resolution Accuracy): 0.9757
+RA_avg (Average Resolution Accuracy): 0.8646
+GG (Gender Gap): 0.2222
+
+Text Prompt:  ['The person in the image is him', 'The person in the image is her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9930
+RA_f (Female Resolution Accuracy): 0.9586
+RA_avg (Average Resolution Accuracy): 0.9758
+GG (Gender Gap): 0.0344
+
+Text Prompt:  ['The person in the image is he', 'The person in the image is she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9906
+RA_f (Female Resolution Accuracy): 0.9811
+RA_avg (Average Resolution Accuracy): 0.9858
+GG (Gender Gap): 0.0095
+
+--- Nothing frozen ---
+
+Text Prompt:  ['male', 'femlae']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9624
+RA_f (Female Resolution Accuracy): 0.9829
+RA_avg (Average Resolution Accuracy): 0.9727
+GG (Gender Gap): 0.0204
+
+Text Prompt:  ['him', 'her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9930
+RA_f (Female Resolution Accuracy): 0.9532
+RA_avg (Average Resolution Accuracy): 0.9731
+GG (Gender Gap): 0.0398
+
+Text Prompt:  ['he', 'she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9906
+RA_f (Female Resolution Accuracy): 0.9766
+RA_avg (Average Resolution Accuracy): 0.9836
+GG (Gender Gap): 0.0140
+
+Text Prompt:  ['The person in the image is male', 'The person in the image is female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9811
+RA_avg (Average Resolution Accuracy): 0.9835
+GG (Gender Gap): 0.0048
+
+Text Prompt:  ['The person in the image is him', 'The person in the image is her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9906
+RA_f (Female Resolution Accuracy): 0.9730
+RA_avg (Average Resolution Accuracy): 0.9818
+GG (Gender Gap): 0.0176
+
+Text Prompt:  ['The person in the image is he', 'The person in the image is she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9906
+RA_f (Female Resolution Accuracy): 0.9829
+RA_avg (Average Resolution Accuracy): 0.9867
+GG (Gender Gap): 0.0077
+
+--- Everything except both projections are frozen ---
+
+Text Prompt:  ['male', 'female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9930
+RA_f (Female Resolution Accuracy): 0.9000
+RA_avg (Average Resolution Accuracy): 0.9465
+GG (Gender Gap): 0.0930
+
+Text Prompt:  ['him', 'her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9859
+RA_f (Female Resolution Accuracy): 0.9865
+RA_avg (Average Resolution Accuracy): 0.9862
+GG (Gender Gap): 0.0006
+
+Text Prompt:  ['he', 'she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9836
+RA_f (Female Resolution Accuracy): 0.9775
+RA_avg (Average Resolution Accuracy): 0.9805
+GG (Gender Gap): 0.0061
+
+Text Prompt:  ['The person in the image is male', 'The person in the image is female']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.6479
+RA_f (Female Resolution Accuracy): 0.9811
+RA_avg (Average Resolution Accuracy): 0.8145
+GG (Gender Gap): 0.3332
+
+Text Prompt:  ['The person in the image is him', 'The person in the image is her']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9836
+RA_f (Female Resolution Accuracy): 0.9883
+RA_avg (Average Resolution Accuracy): 0.9859
+GG (Gender Gap): 0.0047
+
+Text Prompt:  ['The person in the image is he', 'The person in the image is she']
+---------------------------------------------------------------------
+RA_m (Male Resolution Accuracy): 0.9789
+RA_f (Female Resolution Accuracy): 0.9901
+RA_avg (Average Resolution Accuracy): 0.9845
+GG (Gender Gap): 0.0112
