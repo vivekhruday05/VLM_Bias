@@ -61,7 +61,7 @@ def plot_metric(metric_data, metric_name, color):
         # Get the metric values for each finetuning setting for the current prompt
         values = [metric_data[j][i] for j in range(len(settings))]
         bars = ax.bar(settings, values, color=color)
-        ax.set_title(prompts[i], fontsize=10)  # Reduced font size for subplot titles
+        ax.set_title(prompts[i], fontsize=6)  # Reduced font size for subplot titles
         ax.set_ylabel(metric_name)
         ax.set_ylim(0.47, 1.2)
         ax.tick_params(axis='x', rotation=15, labelsize=8)  # Reduced font size for x-tick labels
