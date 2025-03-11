@@ -79,7 +79,7 @@ def plot_metric(metric_data, metric_name, color):
             )
 
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-    plt.savefig(f'./visualizations/results/{metric_name}.jpg')
+    plt.savefig(f'../visualizations/results/{metric_name}.jpg')
 
 # Plot each metric with different colors
 plot_metric(RA_m_data, "RA_m (Male Accuracy)", "skyblue")

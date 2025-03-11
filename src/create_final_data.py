@@ -33,7 +33,7 @@ def process_dataset(captions_file):
     final_data = {**true_examples, **false_examples}
     return final_data
 
-final_data = process_dataset("captions_with_stereotypes.json")
+final_data = process_dataset("../data/captions_with_stereotypes.json")
 
 # Split data into train, test, and validation sets
 keys = list(final_data.keys())
@@ -45,12 +45,12 @@ test_data = {k: final_data[k] for k in test_keys}
 val_data = {k: final_data[k] for k in val_keys}
 
 # Save the splits to JSON files
-with open("./data/train_data.json", "w") as f:
+with open("../data/train_data.json", "w") as f:
     json.dump(train_data, f)
 
-with open("./data/test_data.json", "w") as f:
+with open("../data/test_data.json", "w") as f:
     json.dump(test_data, f)
 
-with open("./data/val_data.json", "w") as f:
+with open("../data/val_data.json", "w") as f:
     json.dump(val_data, f)
 

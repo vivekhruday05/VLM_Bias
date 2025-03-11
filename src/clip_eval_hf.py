@@ -29,8 +29,8 @@ class CLIPValDataset(Dataset):
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    val_json = "val_data.json"
-    image_folder = "./img_align_celeba"
+    val_json = "../data/val_data.json"
+    image_folder = "../data/img_align_celeba"
 
     # # Load the fine-tuned model and processor
     # model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")

@@ -39,14 +39,14 @@ def load_txt(filename):
             }
     return data
 
-captions = load_json("captions_with_gender.json")
-annotations = load_txt("combined_annotation.txt")
+captions = load_json("../data/captions_with_gender.json")
+annotations = load_txt("../data/combined_annotation.txt")
 
 for img, attr in annotations.items():
     if img in captions:
         captions[img]["stereotypical"] = is_stereotypical(attr, captions[img]["gender"])
 
-with open("captions_with_stereotypes.json", "w") as f:
+with open("../data/captions_with_stereotypes.json", "w") as f:
     json.dump(captions, f, indent=4)
 
 print("Stereotypical attribute added successfully.")

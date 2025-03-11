@@ -71,7 +71,7 @@ def plot_metric_lines_all(metric_data, metric_name):
     plt.ylim(0, 0.6)
     plt.legend(loc="upper right", fontsize=6)
     plt.tight_layout()
-    plt.savefig(f'./visualizations/results/{metric_name}.jpg')
+    plt.savefig(f'../visualizations/results/{metric_name}.jpg')
 
 # Plot each metric in a single figure with all prompt lines
 # plot_metric_lines_all(RA_m_data, "RA_m (Male Accuracy)")

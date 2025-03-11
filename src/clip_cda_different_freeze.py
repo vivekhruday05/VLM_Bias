@@ -59,8 +59,8 @@ class CLIPTrainer(Trainer):
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    train_json = "train_data.json"
-    image_folder = "./img_align_celeba"
+    train_json = "../data/train_data.json"
+    image_folder = "../data/img_align_celeba"
 
     # Load model and processor
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")

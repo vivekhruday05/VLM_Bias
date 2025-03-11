@@ -77,7 +77,7 @@ def plot_gender_attribute_distribution(json_file, annotation_file):
         plt.title(f"Distribution of {attr} by Gender")
         plt.xticks(positions + width, unique_values)  # Align x labels
         plt.legend()
-        plt.savefig("./visualizations/attribute_distribution_" + attr + ".png")
+        plt.savefig("../visualizations/data/attribute_distribution_" + attr + ".png")
 
-plot_gender_attribute_distribution("captions_with_gender.json", "combined_annotation.txt")
+plot_gender_attribute_distribution("../data/captions_with_gender.json", "../data/combined_annotation.txt")
 
