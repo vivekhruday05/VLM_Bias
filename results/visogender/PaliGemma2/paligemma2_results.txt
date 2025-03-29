@@ -1,0 +1,40 @@
+-------------- Method: paligemma2 --------------
+
+OO Results:
+RA_m: 0.7913, RA_f: 0.4609, RA_avg: 0.6261, GG: 0.3304
+
+OP Results:
+RA_m: 0.9043, RA_f: 0.4522, RA_avg: 0.6783, GG: 0.4522
+
+-------------- Method: vision_frozen --------------
+
+OO Results:
+RA_m: 0.9739, RA_f: 1.0000, RA_avg: 0.9870, GG: 0.0261
+
+OP Results:
+RA_m: 0.6870, RA_f: 0.8130, RA_avg: 0.7500, GG: 0.1261
+
+-------------- Method: text_frozen --------------
+
+OO Results:
+RA_m: 0.4174, RA_f: 0.3913, RA_avg: 0.4043, GG: 0.0261
+
+OP Results:
+RA_m: 0.7565, RA_f: 0.3696, RA_avg: 0.5630, GG: 0.3870
+
+-------------- Method: none_frozen --------------
+
+OO Results:
+RA_m: 0.9478, RA_f: 1.0000, RA_avg: 0.9739, GG: 0.0522
+
+OP Results:
+RA_m: 0.8913, RA_f: 0.7304, RA_avg: 0.8109, GG: 0.1609
+
+-------------- Method: projections_not_frozen --------------
+
+OO Results:
+RA_m: 0.9739, RA_f: 0.9913, RA_avg: 0.9826, GG: 0.0174
+
+OP Results:
+RA_m: 0.7435, RA_f: 0.7913, RA_avg: 0.7674, GG: 0.0478
+
