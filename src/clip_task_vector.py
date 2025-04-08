@@ -75,6 +75,37 @@ dataloader = DataLoader(
     pin_memory=True
 )
 
+def apply_task_vector_selectively(original_weights, normalized_task_vector, freeze_setting, alpha=0.3):
+    debiased_weights = {}
+
+    for k in original_weights:
+        # Default: do not apply task vector
+        debiased_weights[k] = original_weights[k].clone()
+
+        if freeze_setting == "none_frozen":
+            # Apply to all
+            debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+
+        elif freeze_setting == "vision_frozen":
+            if k.startswith("text_model") or k.startswith("text_projection"):
+                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+
+        elif freeze_setting == "text_frozen":
+            if k.startswith("vision_model") or k.startswith("visual_projection"):
+                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+
+        elif freeze_setting == "projections_unfrozen":
+            if k.startswith("text_projection") or k.startswith("visual_projection"):
+                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+
+    # Blend original and debiased weights
+    final_weights = {
+        k: ((3.0 * original_weights[k]) + (4.0 * debiased_weights[k])) / 7.0
+        for k in original_weights
+    }
+    return final_weights
+
+
 # -------------------------------------------------------
 # 5. Fine-Tune the Model on Anti-Stereotypical Data Using Cosine Similarity Loss
 # -------------------------------------------------------
@@ -115,33 +146,50 @@ def train_clip(model, dataloader, epochs=5, lr=5e-6):
 
 # Fine-tune the model on anti-stereotypical examples.
 # (In practice, use more epochs if you have a larger dataset.)
-fine_tuned_model = train_clip(original_model, dataloader, epochs=3, lr=5e-6)
+# fine_tuned_model = train_clip(original_model, dataloader, epochs=3, lr=5e-6)
 
 # -------------------------------------------------------
 # 6. Compute the Task Vector and Apply It to Debias the Model
 # -------------------------------------------------------
 # Compute the task vector (the change in weights)
-fine_tuned_weights = fine_tuned_model.state_dict()
-task_vector = {k: fine_tuned_weights[k] - original_weights[k] for k in original_weights.keys()}
+# fine_tuned_weights = fine_tuned_model.state_dict()
+# task_vector = {k: fine_tuned_weights[k] - original_weights[k] for k in original_weights.keys()}
 
-normalized_task_vector = {}
-for k, v in task_vector.items():
-    norm = torch.norm(v)
-    normalized_task_vector[k] = v / norm if norm != 0 else v
+# normalized_task_vector = {}
+# for k, v in task_vector.items():
+#     norm = torch.norm(v)
+#     normalized_task_vector[k] = v / norm if norm != 0 else v
 
-torch.save(normalized_task_vector, "task_vector.pt")
+# torch.save(normalized_task_vector, "task_vector.pt")
+
+normalized_task_vector = torch.load("task_vector.pt")
 # To “unlearn” the stereotypical bias, subtract the task vector from the original weights.
 # This gives debiased weights that (ideally) retain the ability on non-stereotypical features.
-debiased_weights = {k: original_weights[k] - (0.3 * normalized_task_vector[k]) for k in original_weights.keys()}
-debiased_weights = {k: ((8.0 * original_weights[k]) + (5.0 * debiased_weights[k]))/13.0 for k in original_weights.keys()}
 
-# Load debiased weights into a new CLIP model instance.
-debiased_model = CLIPModel.from_pretrained(model_name)
-debiased_model.load_state_dict(debiased_weights)
-debiased_model.to(device)
+# Step 2: Apply task vector selectively
+for freeze_setting in ["none_frozen", "vision_frozen", "text_frozen", "projections_unfrozen"]:
+    selective_weights = apply_task_vector_selectively(
+        original_weights, normalized_task_vector, freeze_setting, alpha=0.3
+    )
 
-# -------------------------------------------------------
-# 7. Save the Debiased Model
-# -------------------------------------------------------
-torch.save(debiased_model.state_dict(), "models_task_vector/none_frozen.pt")
-print("Debiased model saved as debiased_clip_model.pt")
+    debiased_model = CLIPModel.from_pretrained(model_name)
+    debiased_model.load_state_dict(selective_weights)
+    debiased_model.to(device)
+
+    save_path = f"models/{freeze_setting}.pt"
+    torch.save(debiased_model.state_dict(), save_path)
+    print(f"Saved debiased model with task vector applied to: {freeze_setting}")
+
+# debiased_weights = {k: original_weights[k] - (0.3 * normalized_task_vector[k]) for k in original_weights.keys()}
+# debiased_weights = {k: ((3.0 * original_weights[k]) + (4.0 * debiased_weights[k]))/7.0 for k in original_weights.keys()}
+
+# # Load debiased weights into a new CLIP model instance.
+# debiased_model = CLIPModel.from_pretrained(model_name)
+# debiased_model.load_state_dict(debiased_weights)
+# debiased_model.to(device)
+
+# # -------------------------------------------------------
+# # 7. Save the Debiased Model
+# # -------------------------------------------------------
+# torch.save(debiased_model.state_dict(), "models/none_frozen.pt")
+# print("Debiased model saved as debiased_clip_model.pt")
