@@ -1,0 +1,31 @@
+-------------- Method: vision_frozen --------------
+
+OO Results:
+RA_m: 0.1739, RA_f: 0.7478, RA_avg: 0.4609, GG: 0.5739
+
+OP Results:
+RA_m: 0.1000, RA_f: 0.0217, RA_avg: 0.0609, GG: 0.0783
+
+-------------- Method: text_frozen --------------
+
+OO Results:
+RA_m: 0.6261, RA_f: 0.2348, RA_avg: 0.4304, GG: 0.3913
+
+OP Results:
+RA_m: 0.5565, RA_f: 0.2217, RA_avg: 0.3891, GG: 0.3348
+
+-------------- Method: none_frozen --------------
+
+OO Results:
+RA_m: 0.0696, RA_f: 0.2609, RA_avg: 0.1652, GG: 0.1913
+
+OP Results:
+RA_m: 0.2957, RA_f: 0.0087, RA_avg: 0.1522, GG: 0.2870
+
+-------------- Method: projections_unfrozen --------------
+
+OO Results:
+RA_m: 0.6261, RA_f: 0.2348, RA_avg: 0.4304, GG: 0.3913
+
+OP Results:
+RA_m: 0.5565, RA_f: 0.2217, RA_avg: 0.3891, GG: 0.3348
