@@ -75,35 +75,47 @@ dataloader = DataLoader(
     pin_memory=True
 )
 
-def apply_task_vector_selectively(original_weights, normalized_task_vector, freeze_setting, alpha=0.3):
+def apply_task_vector_selectively(original_weights, normalized_task_vector, freeze_setting, alpha=0.3, blend=1.0):
+    """
+    Applies the task vector to debias the weights based on the specified freeze setting.
+    The final debiased weight for each parameter is computed as:
+        W_debiased = original_weight - ((1 - blend) * alpha) * task_vector
+    The freeze_setting controls which parts of the model are affected.
+    
+    Parameters:
+      original_weights: dict of original weights.
+      normalized_task_vector: dict of the task vector with matching keys.
+      freeze_setting: str specifying which submodules to modify.
+      alpha: scaling factor for the task vector.
+      blend: blend parameter in [0, 1]. A value closer to 1 applies less debiasing.
+    """
     debiased_weights = {}
+    factor = (1.0 - blend) * alpha
 
     for k in original_weights:
-        # Default: do not apply task vector
+        # Default: keep original weight
         debiased_weights[k] = original_weights[k].clone()
 
         if freeze_setting == "none_frozen":
-            # Apply to all
-            debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+            # Apply to all parameters.
+            debiased_weights[k] = original_weights[k] - (factor * normalized_task_vector[k])
 
         elif freeze_setting == "vision_frozen":
+            # Only modify parameters corresponding to the text branch.
             if k.startswith("text_model") or k.startswith("text_projection"):
-                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+                debiased_weights[k] = original_weights[k] - (factor * normalized_task_vector[k])
 
         elif freeze_setting == "text_frozen":
+            # Only modify parameters corresponding to the vision branch.
             if k.startswith("vision_model") or k.startswith("visual_projection"):
-                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+                debiased_weights[k] = original_weights[k] - (factor * normalized_task_vector[k])
 
         elif freeze_setting == "projections_unfrozen":
+            # Only modify projection layers.
             if k.startswith("text_projection") or k.startswith("visual_projection"):
-                debiased_weights[k] = original_weights[k] - (alpha * normalized_task_vector[k])
+                debiased_weights[k] = original_weights[k] - (factor * normalized_task_vector[k])
 
-    # Blend original and debiased weights
-    final_weights = {
-        k: ((3.0 * original_weights[k]) + (4.0 * debiased_weights[k])) / 7.0
-        for k in original_weights
-    }
-    return final_weights
+    return debiased_weights
 
 
 # -------------------------------------------------------
@@ -169,7 +181,7 @@ normalized_task_vector = torch.load("task_vector.pt")
 # Step 2: Apply task vector selectively
 for freeze_setting in ["none_frozen", "vision_frozen", "text_frozen", "projections_unfrozen"]:
     selective_weights = apply_task_vector_selectively(
-        original_weights, normalized_task_vector, freeze_setting, alpha=0.3
+        original_weights, normalized_task_vector, freeze_setting, alpha=0.5611, blend=0.7812
     )
 
     debiased_model = CLIPModel.from_pretrained(model_name)

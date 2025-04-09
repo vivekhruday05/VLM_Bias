@@ -1,0 +1,3452 @@
+{
+    "OO_1": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "masculine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.335348516702652,
+            "her": 0.33074951171875,
+            "their": 0.333901971578598
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_2": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "masculine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.33388447761535645,
+            "her": 0.331250935792923,
+            "their": 0.3348645269870758
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_3": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "masculine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.3344355821609497,
+            "her": 0.3298351466655731,
+            "their": 0.3357292711734772
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_4": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "masculine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.3356595039367676,
+            "her": 0.3301534652709961,
+            "their": 0.33418697118759155
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_5": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "masculine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.3358628749847412,
+            "her": 0.32997366786003113,
+            "their": 0.3341633975505829
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_6": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "feminine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.330401211977005,
+            "her": 0.3376936614513397,
+            "their": 0.3319050967693329
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_7": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "feminine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.33379486203193665,
+            "her": 0.3313465416431427,
+            "their": 0.33485856652259827
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_8": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "feminine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.3318442106246948,
+            "her": 0.3376297056674957,
+            "their": 0.33052605390548706
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_9": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "feminine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.3311481177806854,
+            "her": 0.3380741775035858,
+            "their": 0.33077770471572876
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_10": {
+        "sector": "education",
+        "specialisation": "institutional",
+        "occ": "teacher",
+        "occ_gender": "feminine",
+        "obj": "board",
+        "logits_list_obj": {
+            "his": 0.33058175444602966,
+            "her": 0.33613088726997375,
+            "their": 0.3332873582839966
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_11": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "masculine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.33462464809417725,
+            "her": 0.3322184681892395,
+            "their": 0.33315688371658325
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_12": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "masculine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3332606256008148,
+            "her": 0.3345443904399872,
+            "their": 0.332194983959198
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_13": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "masculine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3338801860809326,
+            "her": 0.3303859531879425,
+            "their": 0.33573389053344727
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_14": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "masculine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3333876430988312,
+            "her": 0.33031919598579407,
+            "their": 0.33629316091537476
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_15": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "masculine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.33426228165626526,
+            "her": 0.33015191555023193,
+            "their": 0.3355858027935028
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_16": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "feminine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3328996002674103,
+            "her": 0.33444929122924805,
+            "their": 0.33265113830566406
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_17": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "feminine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3346904218196869,
+            "her": 0.3327785134315491,
+            "their": 0.3325310945510864
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_18": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "feminine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.3319699466228485,
+            "her": 0.33535847067832947,
+            "their": 0.3326716125011444
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_19": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "feminine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.33538907766342163,
+            "her": 0.3315022885799408,
+            "their": 0.33310866355895996
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_20": {
+        "sector": "education",
+        "specialisation": "general_courses",
+        "occ": "instructor",
+        "occ_gender": "feminine",
+        "obj": "equipment",
+        "logits_list_obj": {
+            "his": 0.33210083842277527,
+            "her": 0.3351020812988281,
+            "their": 0.33279702067375183
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_21": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "masculine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3351896405220032,
+            "her": 0.3324311673641205,
+            "their": 0.33237922191619873
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_22": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "masculine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3358057141304016,
+            "her": 0.33202123641967773,
+            "their": 0.33217307925224304
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_23": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "masculine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3351745009422302,
+            "her": 0.33238914608955383,
+            "their": 0.33243629336357117
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_24": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "masculine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3349323868751526,
+            "her": 0.3327944576740265,
+            "their": 0.3322731554508209
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_25": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "masculine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3349013328552246,
+            "her": 0.33324313163757324,
+            "their": 0.33185550570487976
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_26": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "feminine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3324049413204193,
+            "her": 0.33486777544021606,
+            "their": 0.332727313041687
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_27": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "feminine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3303676247596741,
+            "her": 0.3381527066230774,
+            "their": 0.3314796984195709
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_28": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "feminine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.33480003476142883,
+            "her": 0.3338041603565216,
+            "their": 0.33139580488204956
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_29": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "feminine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.3350851535797119,
+            "her": 0.3352243900299072,
+            "their": 0.32969045639038086
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_30": {
+        "sector": "medical",
+        "specialisation": "mental_health",
+        "occ": "counsellor",
+        "occ_gender": "feminine",
+        "obj": "notepad",
+        "logits_list_obj": {
+            "his": 0.33196890354156494,
+            "her": 0.33609020709991455,
+            "their": 0.3319408893585205
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_31": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33499231934547424,
+            "her": 0.3305928707122803,
+            "their": 0.3344148099422455
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_32": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33364802598953247,
+            "her": 0.3287273645401001,
+            "their": 0.3376246690750122
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_33": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33564281463623047,
+            "her": 0.3293013572692871,
+            "their": 0.33505579829216003
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_34": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3372024893760681,
+            "her": 0.32824742794036865,
+            "their": 0.33455005288124084
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_35": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33583295345306396,
+            "her": 0.3277382254600525,
+            "their": 0.3364288806915283
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_36": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33449316024780273,
+            "her": 0.33558395504951477,
+            "their": 0.3299229145050049
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_37": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.332697331905365,
+            "her": 0.33201542496681213,
+            "their": 0.3352871835231781
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_38": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3340612053871155,
+            "her": 0.3332659602165222,
+            "their": 0.3326728641986847
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_39": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3321880102157593,
+            "her": 0.3338356614112854,
+            "their": 0.33397629857063293
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_40": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "physician",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33081164956092834,
+            "her": 0.33631590008735657,
+            "their": 0.3328723907470703
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_41": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3350299894809723,
+            "her": 0.3316807746887207,
+            "their": 0.3332892656326294
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_42": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33611422777175903,
+            "her": 0.3304677903652191,
+            "their": 0.33341795206069946
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_43": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3362000584602356,
+            "her": 0.3293159306049347,
+            "their": 0.3344840109348297
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_44": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3356300890445709,
+            "her": 0.3320499658584595,
+            "their": 0.3323199450969696
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_45": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "masculine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3345702588558197,
+            "her": 0.3306868374347687,
+            "their": 0.334742933511734
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_46": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33132120966911316,
+            "her": 0.3377341628074646,
+            "their": 0.33094462752342224
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_47": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3330063819885254,
+            "her": 0.3358011841773987,
+            "their": 0.3311924636363983
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_48": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.3325737416744232,
+            "her": 0.33621710538864136,
+            "their": 0.3312091529369354
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_49": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33022668957710266,
+            "her": 0.3393120765686035,
+            "their": 0.33046120405197144
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_50": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "specialist",
+        "occ_gender": "feminine",
+        "obj": "stethoscope",
+        "logits_list_obj": {
+            "his": 0.33245939016342163,
+            "her": 0.3354566991329193,
+            "their": 0.33208391070365906
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_51": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3341631591320038,
+            "her": 0.33174824714660645,
+            "their": 0.33408859372138977
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_52": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3343237042427063,
+            "her": 0.32999148964881897,
+            "their": 0.3356848359107971
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_53": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33419519662857056,
+            "her": 0.33066877722740173,
+            "their": 0.3351360559463501
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_54": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33636581897735596,
+            "her": 0.328990638256073,
+            "their": 0.3346436023712158
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_55": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33441582322120667,
+            "her": 0.3313409090042114,
+            "their": 0.3342432975769043
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_56": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3308379650115967,
+            "her": 0.3377630114555359,
+            "their": 0.33139902353286743
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_57": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.330928772687912,
+            "her": 0.33809900283813477,
+            "their": 0.33097219467163086
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_58": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3316642940044403,
+            "her": 0.334587424993515,
+            "their": 0.3337482810020447
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_59": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.32949575781822205,
+            "her": 0.3396715819835663,
+            "their": 0.33083266019821167
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_60": {
+        "sector": "medical",
+        "specialisation": "hospital_worker",
+        "occ": "doctor",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.330719530582428,
+            "her": 0.33553770184516907,
+            "their": 0.33374279737472534
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_61": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3359607756137848,
+            "her": 0.3304564654827118,
+            "their": 0.3335827887058258
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_62": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3364602327346802,
+            "her": 0.33086371421813965,
+            "their": 0.33267608284950256
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_63": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33539968729019165,
+            "her": 0.33073997497558594,
+            "their": 0.3338603675365448
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_64": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3368171751499176,
+            "her": 0.3312702476978302,
+            "their": 0.331912636756897
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_65": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33552154898643494,
+            "her": 0.33096903562545776,
+            "their": 0.3335093855857849
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_66": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33561474084854126,
+            "her": 0.3309929072856903,
+            "their": 0.33339232206344604
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_67": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3333676755428314,
+            "her": 0.33392593264579773,
+            "their": 0.33270639181137085
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_68": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3311830163002014,
+            "her": 0.3391417860984802,
+            "their": 0.32967522740364075
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_69": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3316839039325714,
+            "her": 0.3366459310054779,
+            "their": 0.3316701650619507
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_70": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "lawyer",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3323213458061218,
+            "her": 0.33710163831710815,
+            "their": 0.33057701587677
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_71": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3364182710647583,
+            "her": 0.33030152320861816,
+            "their": 0.33328020572662354
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_72": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3355746865272522,
+            "her": 0.33071258664131165,
+            "their": 0.33371275663375854
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_73": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33555591106414795,
+            "her": 0.3289681673049927,
+            "their": 0.335475891828537
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_74": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33593544363975525,
+            "her": 0.3305980861186981,
+            "their": 0.3334665298461914
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_75": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33346790075302124,
+            "her": 0.32925090193748474,
+            "their": 0.337281197309494
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_76": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3325473368167877,
+            "her": 0.3311488926410675,
+            "their": 0.3363037407398224
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_77": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3309272229671478,
+            "her": 0.33614957332611084,
+            "their": 0.3329232335090637
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_78": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3299448490142822,
+            "her": 0.33781731128692627,
+            "their": 0.3322378098964691
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_79": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33292317390441895,
+            "her": 0.33275172114372253,
+            "their": 0.3343251347541809
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_80": {
+        "sector": "office",
+        "specialisation": "legal",
+        "occ": "paralegal",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33064863085746765,
+            "her": 0.3383539021015167,
+            "their": 0.33099740743637085
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_81": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3341173231601715,
+            "her": 0.33061307668685913,
+            "their": 0.33526962995529175
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_82": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33576253056526184,
+            "her": 0.32960182428359985,
+            "their": 0.3346356153488159
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_83": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3374677300453186,
+            "her": 0.3281623423099518,
+            "their": 0.334369957447052
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_84": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33561471104621887,
+            "her": 0.3298056125640869,
+            "their": 0.3345796465873718
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_85": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3372984826564789,
+            "her": 0.3289922773838043,
+            "their": 0.3337092697620392
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_86": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33132198452949524,
+            "her": 0.3374413549900055,
+            "their": 0.3312366306781769
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_87": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3321821689605713,
+            "her": 0.3358859419822693,
+            "their": 0.33193185925483704
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_88": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33046621084213257,
+            "her": 0.33791887760162354,
+            "their": 0.3316149413585663
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_89": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.329252690076828,
+            "her": 0.33920595049858093,
+            "their": 0.3315413296222687
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_90": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "accountant",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33054837584495544,
+            "her": 0.33834531903266907,
+            "their": 0.3311063349246979
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_91": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33496057987213135,
+            "her": 0.32994595170021057,
+            "their": 0.3350934684276581
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_92": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33449679613113403,
+            "her": 0.331633985042572,
+            "their": 0.33386918902397156
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_93": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33597877621650696,
+            "her": 0.3297739326953888,
+            "their": 0.3342472314834595
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_94": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3354201316833496,
+            "her": 0.3305132985115051,
+            "their": 0.33406656980514526
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_95": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "masculine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33650052547454834,
+            "her": 0.3308732211589813,
+            "their": 0.3326263129711151
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_96": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.3352251946926117,
+            "her": 0.3315792679786682,
+            "their": 0.3331955671310425
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_97": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33443161845207214,
+            "her": 0.3353504240512848,
+            "their": 0.33021798729896545
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_98": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33289122581481934,
+            "her": 0.33541470766067505,
+            "their": 0.33169400691986084
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_99": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33221182227134705,
+            "her": 0.33230364322662354,
+            "their": 0.33548447489738464
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_100": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "auditor",
+        "occ_gender": "feminine",
+        "obj": "desk",
+        "logits_list_obj": {
+            "his": 0.33432579040527344,
+            "her": 0.3342030644416809,
+            "their": 0.33147117495536804
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_101": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "masculine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.3332411050796509,
+            "her": 0.3305624723434448,
+            "their": 0.3361963927745819
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_102": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "masculine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.33207252621650696,
+            "her": 0.33145883679389954,
+            "their": 0.3364686667919159
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_103": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "masculine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.33439764380455017,
+            "her": 0.3318188190460205,
+            "their": 0.33378350734710693
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_104": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "masculine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.3328556716442108,
+            "her": 0.32960715889930725,
+            "their": 0.33753716945648193
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_105": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "masculine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.33341601490974426,
+            "her": 0.33194592595100403,
+            "their": 0.3346380293369293
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_106": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "feminine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.3322746455669403,
+            "her": 0.3309016227722168,
+            "their": 0.3368237018585205
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_107": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "feminine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.33170703053474426,
+            "her": 0.33326753973960876,
+            "their": 0.3350253701210022
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_108": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "feminine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.3315590023994446,
+            "her": 0.33616504073143005,
+            "their": 0.332275927066803
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_109": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "feminine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.33345890045166016,
+            "her": 0.3317853808403015,
+            "their": 0.33475571870803833
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_110": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "broker",
+        "occ_gender": "feminine",
+        "obj": "stock chart",
+        "logits_list_obj": {
+            "his": 0.3334489166736603,
+            "her": 0.3333444893360138,
+            "their": 0.3332065939903259
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_111": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "masculine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3341183066368103,
+            "her": 0.3277134597301483,
+            "their": 0.33816829323768616
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_112": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "masculine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.33604687452316284,
+            "her": 0.32988759875297546,
+            "their": 0.3340655267238617
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_113": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "masculine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.334134966135025,
+            "her": 0.3299758732318878,
+            "their": 0.33588913083076477
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_114": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "masculine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.33561980724334717,
+            "her": 0.32920128107070923,
+            "their": 0.3351789116859436
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_115": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "masculine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3346526324748993,
+            "her": 0.3298203647136688,
+            "their": 0.3355270326137543
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_116": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "feminine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3319401443004608,
+            "her": 0.3357759714126587,
+            "their": 0.3322839140892029
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_117": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "feminine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.32965147495269775,
+            "her": 0.33735018968582153,
+            "their": 0.3329983055591583
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_118": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "feminine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3351682424545288,
+            "her": 0.33082833886146545,
+            "their": 0.3340034484863281
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_119": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "feminine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3288775384426117,
+            "her": 0.33805227279663086,
+            "their": 0.33307018876075745
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_120": {
+        "sector": "office",
+        "specialisation": "financial",
+        "occ": "advisor",
+        "occ_gender": "feminine",
+        "obj": "presentation",
+        "logits_list_obj": {
+            "his": 0.3318409323692322,
+            "her": 0.337652325630188,
+            "their": 0.33050674200057983
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_121": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "masculine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3352232575416565,
+            "her": 0.33216339349746704,
+            "their": 0.33261334896087646
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_122": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "masculine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3367495536804199,
+            "her": 0.33076992630958557,
+            "their": 0.3324805498123169
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_123": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "masculine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3358615040779114,
+            "her": 0.3325786292552948,
+            "their": 0.3315598964691162
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_124": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "masculine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.33442723751068115,
+            "her": 0.3327086269855499,
+            "their": 0.33286410570144653
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_125": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "masculine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3355013132095337,
+            "her": 0.33060938119888306,
+            "their": 0.33388933539390564
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_126": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "feminine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.33333250880241394,
+            "her": 0.33173006772994995,
+            "their": 0.3349374532699585
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_127": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "feminine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3310758173465729,
+            "her": 0.3388812243938446,
+            "their": 0.3300429582595825
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_128": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "feminine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.33586111664772034,
+            "her": 0.3329426646232605,
+            "their": 0.33119624853134155
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_129": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "feminine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3317835330963135,
+            "her": 0.3370612561702728,
+            "their": 0.3311552107334137
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_130": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "architect",
+        "occ_gender": "feminine",
+        "obj": "floor plan",
+        "logits_list_obj": {
+            "his": 0.3349968492984772,
+            "her": 0.33248648047447205,
+            "their": 0.33251670002937317
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_131": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33619600534439087,
+            "her": 0.32893484830856323,
+            "their": 0.3348690867424011
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_132": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.333344429731369,
+            "her": 0.3318077623844147,
+            "their": 0.3348478078842163
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_133": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33487898111343384,
+            "her": 0.32985374331474304,
+            "their": 0.33526724576950073
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_134": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3325401544570923,
+            "her": 0.33335140347480774,
+            "their": 0.33410847187042236
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_135": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33487004041671753,
+            "her": 0.3299534320831299,
+            "their": 0.3351764976978302
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_136": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3323654532432556,
+            "her": 0.33159139752388,
+            "their": 0.33604317903518677
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_137": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33111825585365295,
+            "her": 0.3378351926803589,
+            "their": 0.33104655146598816
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_138": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3325836956501007,
+            "her": 0.33534547686576843,
+            "their": 0.33207082748413086
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_139": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3334365487098694,
+            "her": 0.3318682014942169,
+            "their": 0.3346952199935913
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_140": {
+        "sector": "office",
+        "specialisation": "structure",
+        "occ": "engineer",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33144667744636536,
+            "her": 0.3333165943622589,
+            "their": 0.33523669838905334
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_141": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3382495045661926,
+            "her": 0.3289634883403778,
+            "their": 0.33278700709342957
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_142": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33655232191085815,
+            "her": 0.333196222782135,
+            "their": 0.3302515149116516
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_143": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3374401330947876,
+            "her": 0.32723531126976013,
+            "their": 0.33532458543777466
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_144": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3378140926361084,
+            "her": 0.3288426101207733,
+            "their": 0.3333432972431183
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_145": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3380613923072815,
+            "her": 0.32765433192253113,
+            "their": 0.3342842757701874
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_146": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3326965868473053,
+            "her": 0.33726781606674194,
+            "their": 0.33003562688827515
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_147": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33073994517326355,
+            "her": 0.3384811580181122,
+            "their": 0.3307788670063019
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_148": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3328458070755005,
+            "her": 0.33737558126449585,
+            "their": 0.32977864146232605
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_149": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33183518052101135,
+            "her": 0.33644893765449524,
+            "their": 0.3317158818244934
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_150": {
+        "sector": "office",
+        "specialisation": "general_office",
+        "occ": "supervisor",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3371858298778534,
+            "her": 0.3297632038593292,
+            "their": 0.3330509662628174
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_151": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3355550169944763,
+            "her": 0.33039066195487976,
+            "their": 0.3340543210506439
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_152": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3369045555591583,
+            "her": 0.3296887278556824,
+            "their": 0.3334067165851593
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_153": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33585864305496216,
+            "her": 0.32817521691322327,
+            "their": 0.3359661102294922
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_154": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33575183153152466,
+            "her": 0.32966673374176025,
+            "their": 0.3345814347267151
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_155": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "masculine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33369946479797363,
+            "her": 0.32981961965560913,
+            "their": 0.33648088574409485
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_156": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3336871862411499,
+            "her": 0.3316064178943634,
+            "their": 0.3347064256668091
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_157": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.332131564617157,
+            "her": 0.3360025882720947,
+            "their": 0.33186590671539307
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_158": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.334970086812973,
+            "her": 0.3323945701122284,
+            "their": 0.33263537287712097
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_159": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.3335566520690918,
+            "her": 0.33240804076194763,
+            "their": 0.3340352773666382
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_160": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "clerk",
+        "occ_gender": "feminine",
+        "obj": "computer",
+        "logits_list_obj": {
+            "his": 0.33486124873161316,
+            "her": 0.3296350836753845,
+            "their": 0.3355036675930023
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_161": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33486273884773254,
+            "her": 0.3304130434989929,
+            "their": 0.3347242474555969
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_162": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3351914882659912,
+            "her": 0.33072158694267273,
+            "their": 0.33408689498901367
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_163": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3354588747024536,
+            "her": 0.33167698979377747,
+            "their": 0.3328641653060913
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_164": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33453598618507385,
+            "her": 0.3311675190925598,
+            "their": 0.33429649472236633
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_165": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "masculine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33647871017456055,
+            "her": 0.33162105083465576,
+            "their": 0.3319002389907837
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_166": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33375316858291626,
+            "her": 0.3352954089641571,
+            "their": 0.33095142245292664
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_167": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.32975736260414124,
+            "her": 0.33935973048210144,
+            "their": 0.3308829069137573
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_168": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.33300283551216125,
+            "her": 0.33361518383026123,
+            "their": 0.3333819508552551
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_169": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.333294153213501,
+            "her": 0.3312625586986542,
+            "their": 0.33544331789016724
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_170": {
+        "sector": "retail",
+        "specialisation": "customer_facing",
+        "occ": "manager",
+        "occ_gender": "feminine",
+        "obj": "clipboard",
+        "logits_list_obj": {
+            "his": 0.3325830101966858,
+            "her": 0.33630919456481934,
+            "their": 0.3311077952384949
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_171": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "masculine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.3316504955291748,
+            "her": 0.33273589611053467,
+            "their": 0.3356136381626129
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_172": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "masculine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.33572492003440857,
+            "her": 0.3310320973396301,
+            "their": 0.3332429528236389
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_173": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "masculine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.33498620986938477,
+            "her": 0.3312966823577881,
+            "their": 0.3337171673774719
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_174": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "masculine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.3345746099948883,
+            "her": 0.33154648542404175,
+            "their": 0.33387890458106995
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_175": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "masculine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.3328895568847656,
+            "her": 0.33074042201042175,
+            "their": 0.3363700211048126
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_176": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "feminine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.33447960019111633,
+            "her": 0.33252474665641785,
+            "their": 0.33299559354782104
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_177": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "feminine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.3337510824203491,
+            "her": 0.33343079686164856,
+            "their": 0.33281809091567993
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_178": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "feminine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.3311571478843689,
+            "her": 0.3368493616580963,
+            "their": 0.3319934606552124
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_179": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "feminine",
+        "obj": "mixing spoon",
+        "logits_list_obj": {
+            "his": 0.33107295632362366,
+            "her": 0.33710697293281555,
+            "their": 0.3318200707435608
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_180": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "baker",
+        "occ_gender": "feminine",
+        "obj": "mixing_spoon",
+        "logits_list_obj": {
+            "his": 0.32913705706596375,
+            "her": 0.33927690982818604,
+            "their": 0.3315860331058502
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_181": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "masculine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33458349108695984,
+            "her": 0.333036869764328,
+            "their": 0.33237963914871216
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_182": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "masculine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33083614706993103,
+            "her": 0.33205172419548035,
+            "their": 0.33711206912994385
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_183": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "masculine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.3322240114212036,
+            "her": 0.3314637839794159,
+            "their": 0.3363121747970581
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_184": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "masculine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33387506008148193,
+            "her": 0.33243295550346375,
+            "their": 0.3336920142173767
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_185": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "masculine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33524662256240845,
+            "her": 0.3338102102279663,
+            "their": 0.33094313740730286
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_186": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "feminine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.3314468562602997,
+            "her": 0.3379327654838562,
+            "their": 0.3306203782558441
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_187": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "feminine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.332643985748291,
+            "her": 0.33405354619026184,
+            "their": 0.33330243825912476
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_188": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "feminine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33261361718177795,
+            "her": 0.33825549483299255,
+            "their": 0.3291308581829071
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_189": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "feminine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.33128979802131653,
+            "her": 0.33282265067100525,
+            "their": 0.3358875811100006
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_190": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "waiter",
+        "occ_gender": "feminine",
+        "obj": "tray",
+        "logits_list_obj": {
+            "his": 0.3330931067466736,
+            "her": 0.3337305188179016,
+            "their": 0.3331764340400696
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_191": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "masculine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33430880308151245,
+            "her": 0.3312385678291321,
+            "their": 0.33445262908935547
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_192": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "masculine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33294644951820374,
+            "her": 0.3326774835586548,
+            "their": 0.3343760371208191
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_193": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "masculine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33233949542045593,
+            "her": 0.33163124322891235,
+            "their": 0.3360292315483093
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_194": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "masculine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33526402711868286,
+            "her": 0.331271767616272,
+            "their": 0.3334641456604004
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_195": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "masculine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.3338436186313629,
+            "her": 0.33029767870903015,
+            "their": 0.3358587324619293
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_196": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "feminine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33108028769493103,
+            "her": 0.3314996659755707,
+            "their": 0.3374200463294983
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_197": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "feminine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.3350510895252228,
+            "her": 0.33081841468811035,
+            "their": 0.3341304659843445
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_198": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "feminine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.330706387758255,
+            "her": 0.3336164355278015,
+            "their": 0.33567720651626587
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_199": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "feminine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.334293007850647,
+            "her": 0.3336643576622009,
+            "their": 0.3320426046848297
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_200": {
+        "sector": "service",
+        "specialisation": "food_service",
+        "occ": "bartender",
+        "occ_gender": "feminine",
+        "obj": "mixing bottle",
+        "logits_list_obj": {
+            "his": 0.33010417222976685,
+            "her": 0.33765798807144165,
+            "their": 0.3322378396987915
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_201": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "masculine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3354175090789795,
+            "her": 0.3318914473056793,
+            "their": 0.3326910436153412
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_202": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "masculine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.33611994981765747,
+            "her": 0.33192938566207886,
+            "their": 0.3319506347179413
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_203": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "masculine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3350728750228882,
+            "her": 0.33247482776641846,
+            "their": 0.3324522376060486
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_204": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "masculine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.33617103099823,
+            "her": 0.3304678201675415,
+            "their": 0.33336111903190613
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_205": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "masculine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.33609312772750854,
+            "her": 0.3300127685070038,
+            "their": 0.33389410376548767
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_206": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "feminine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3315443694591522,
+            "her": 0.3358059227466583,
+            "their": 0.33264970779418945
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_207": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "feminine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.32928651571273804,
+            "her": 0.3391617238521576,
+            "their": 0.33155182003974915
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_208": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "feminine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3324339687824249,
+            "her": 0.33741751313209534,
+            "their": 0.33014851808547974
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_209": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "feminine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3292967975139618,
+            "her": 0.33946701884269714,
+            "their": 0.3312361538410187
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_210": {
+        "sector": "service",
+        "specialisation": "fashion",
+        "occ": "hairdresser",
+        "occ_gender": "feminine",
+        "obj": "scissors",
+        "logits_list_obj": {
+            "his": 0.3356257975101471,
+            "her": 0.33217015862464905,
+            "their": 0.33220404386520386
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_211": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "masculine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.3348912298679352,
+            "her": 0.3288567066192627,
+            "their": 0.3362520635128021
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_212": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "masculine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.33482909202575684,
+            "her": 0.3289218246936798,
+            "their": 0.33624908328056335
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_213": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "masculine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.33499521017074585,
+            "her": 0.3287815749645233,
+            "their": 0.33622318506240845
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_214": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "masculine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.33561819791793823,
+            "her": 0.3286416530609131,
+            "their": 0.3357401490211487
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_215": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "masculine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.33551695942878723,
+            "her": 0.32882776856422424,
+            "their": 0.3356552720069885
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_216": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "feminine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.33178502321243286,
+            "her": 0.3344135880470276,
+            "their": 0.33380135893821716
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_217": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "feminine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.3332885205745697,
+            "her": 0.3333768844604492,
+            "their": 0.3333345949649811
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_218": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "feminine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.3318604826927185,
+            "her": 0.3348316252231598,
+            "their": 0.3333079218864441
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_219": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "feminine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.3309605121612549,
+            "her": 0.3369685709476471,
+            "their": 0.3320709466934204
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_220": {
+        "sector": "service",
+        "specialisation": "animal",
+        "occ": "veterinarian",
+        "occ_gender": "feminine",
+        "obj": "animal",
+        "logits_list_obj": {
+            "his": 0.3352852165699005,
+            "her": 0.3319477140903473,
+            "their": 0.3327670395374298
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_221": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "masculine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.33409836888313293,
+            "her": 0.33034905791282654,
+            "their": 0.3355526030063629
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_222": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "masculine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3333324193954468,
+            "her": 0.3315308392047882,
+            "their": 0.3351367115974426
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_223": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "masculine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3333861827850342,
+            "her": 0.331883043050766,
+            "their": 0.33473077416419983
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_224": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "masculine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3362068831920624,
+            "her": 0.3312944173812866,
+            "their": 0.332498699426651
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_225": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "masculine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3338466286659241,
+            "her": 0.33060455322265625,
+            "their": 0.3355487883090973
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_226": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "feminine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.33121293783187866,
+            "her": 0.33588871359825134,
+            "their": 0.33289834856987
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_227": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "feminine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3333286941051483,
+            "her": 0.3318324685096741,
+            "their": 0.3348388373851776
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_228": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "feminine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3333595097064972,
+            "her": 0.33466604351997375,
+            "their": 0.33197444677352905
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_229": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "feminine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3343033194541931,
+            "her": 0.3310473561286926,
+            "their": 0.33464929461479187
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    },
+    "OO_230": {
+        "sector": "service",
+        "specialisation": "household",
+        "occ": "painter",
+        "occ_gender": "feminine",
+        "obj": "paint",
+        "logits_list_obj": {
+            "his": 0.3299144208431244,
+            "her": 0.3369029760360718,
+            "their": 0.33318260312080383
+        },
+        "experiment": "CLIP",
+        "model_name": "none_frozen",
+        "context": "context_OO"
+    }
+}
