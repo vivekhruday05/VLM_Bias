@@ -1,0 +1,39 @@
+-------------- Method: clip --------------
+
+OO Results:
+RA_m: 0.9130, RA_f: 0.9739, RA_avg: 0.9435, GG: 0.0609
+
+OP Results:
+RA_m: 0.4087, RA_f: 0.7130, RA_avg: 0.5609, GG: 0.3043
+
+-------------- Method: vision_frozen --------------
+
+OO Results:
+RA_m: 0.9130, RA_f: 0.9826, RA_avg: 0.9478, GG: 0.0696
+
+OP Results:
+RA_m: 0.3826, RA_f: 0.7522, RA_avg: 0.5674, GG: 0.3696
+
+-------------- Method: text_frozen --------------
+
+OO Results:
+RA_m: 0.9391, RA_f: 0.9739, RA_avg: 0.9565, GG: 0.0348
+
+OP Results:
+RA_m: 0.4565, RA_f: 0.7435, RA_avg: 0.6000, GG: 0.2870
+
+-------------- Method: none_frozen --------------
+
+OO Results:
+RA_m: 0.9304, RA_f: 0.9826, RA_avg: 0.9565, GG: 0.0522
+
+OP Results:
+RA_m: 0.4391, RA_f: 0.7826, RA_avg: 0.6109, GG: 0.3435
+
+-------------- Method: projections_unfrozen --------------
+
+OO Results:
+RA_m: 0.9043, RA_f: 0.9739, RA_avg: 0.9391, GG: 0.0696
+
+OP Results:
+RA_m: 0.4000, RA_f: 0.7130, RA_avg: 0.5565, GG: 0.3130
