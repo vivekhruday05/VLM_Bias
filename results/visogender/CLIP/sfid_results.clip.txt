@@ -1,15 +1,11 @@
 ====== Freeze Mode: NONE ======
-[Before SFID] Female Acc: 0.999, Male Acc: 1.000, Avg: 1.000, Gap: 0.001
 [After SFID]  Female Acc: 1.000, Male Acc: 0.935, Avg: 0.968, Gap: 0.065
 
 ====== Freeze Mode: VISION ======
-[Before SFID] Female Acc: 0.999, Male Acc: 1.000, Avg: 1.000, Gap: 0.001
 [After SFID]  Female Acc: 1.000, Male Acc: 0.627, Avg: 0.814, Gap: 0.373
 
 ====== Freeze Mode: TEXT ======
-[Before SFID] Female Acc: 1.000, Male Acc: 1.000, Avg: 1.000, Gap: 0.000
 [After SFID]  Female Acc: 1.000, Male Acc: 0.963, Avg: 0.981, Gap: 0.037
 
 ====== Freeze Mode: PROJECTION ======
-[Before SFID] Female Acc: 0.999, Male Acc: 1.000, Avg: 1.000, Gap: 0.001
 [After SFID]  Female Acc: 1.000, Male Acc: 0.259, Avg: 0.630, Gap: 0.741
