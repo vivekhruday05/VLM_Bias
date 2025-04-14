@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Number of methods
 n_methods = 5
-x_positions = list(range(n_methods))
+x_positions = np.arange(n_methods)
 method_labels = ["clip", "vision_frozen", "text_frozen", "none_frozen", "projections_unfrozen"]
 
 # Data for CLIP results
@@ -16,30 +17,26 @@ data_OP = {
     "(CLIP, DAUDoS)": [0.3043, 0.3696, 0.2870, 0.3435, 0.3130],
 }
 
-# Create subplots for OO and OP in one figure
-fig, axes = plt.subplots(2, 1, figsize=(14, 6), sharey=True)
+bar_width = 0.35
 
-# Plot OO Results
-for model, gg_values in data_OO.items():
-    axes[0].plot(x_positions, gg_values, marker='o', label=model)
-axes[0].set_title("OO Results: Gender Gap (GG)")
-axes[0].set_xlabel("Method")
-axes[0].set_ylabel("Gender Gap (GG)")
-axes[0].set_xticks(x_positions)
-axes[0].set_xticklabels(method_labels, rotation=20)
-axes[0].legend()
-axes[0].grid(True)
-
-# Plot OP Results
-for model, gg_values in data_OP.items():
-    axes[1].plot(x_positions, gg_values, marker='o', label=model)
-axes[1].set_title("OP Results: Gender Gap (GG)")
-axes[1].set_xlabel("Method")
-axes[1].set_xticks(x_positions)
-axes[1].set_xticklabels(method_labels, rotation=20)
-axes[1].legend()
-axes[1].grid(True)
-
+# First plot: OO setting
+plt.figure(figsize=(7, 5))
+plt.bar(x_positions - bar_width/2, data_OO["(CLIP, CDA)"], width=bar_width, label="(CLIP, CDA)")
+plt.bar(x_positions + bar_width/2, data_OO["(CLIP, DAUDoS)"], width=bar_width, label="(CLIP, DAUDoS)")
+plt.title("OO Setting")
+plt.xticks(x_positions, method_labels, rotation=15)
+plt.ylabel("Value")
+plt.legend()
 plt.tight_layout()
-plt.savefig("../visualizations/CLIP_OO_OP_results_subplot.png")
-plt.show()
+plt.savefig('../visualizations/CLIP_OO.png')
+
+# Second plot: OP setting
+plt.figure(figsize=(7, 5))
+plt.bar(x_positions - bar_width/2, data_OP["(CLIP, CDA)"], width=bar_width, label="(CLIP, CDA)")
+plt.bar(x_positions + bar_width/2, data_OP["(CLIP, DAUDoS)"], width=bar_width, label="(CLIP, DAUDoS)")
+plt.title("OP Setting")
+plt.xticks(x_positions, method_labels, rotation=15)
+plt.ylabel("Value")
+plt.legend()
+plt.tight_layout()
+plt.savefig('../visualizations/CLIP_OP.png')

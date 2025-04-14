@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Number of methods and x-axis positions
 n_methods = 5
-x_positions = list(range(n_methods))
+x_positions = np.arange(n_methods)
 method_labels = ["paligemma2", "vision_frozen", "text_frozen", "none_frozen", "projections_not_frozen"]
 
 # OO Results
@@ -17,33 +18,28 @@ data_OP = {
     "(PaliGemma2, DAUDoS)": [0.4522, 0.3565, 0.4696, 0.4652, 0.4609],
 }
 
-# Create subplots: 1 row, 2 columns
-fig, axs = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+bar_width = 0.35
 
-# --- Subplot 1: OO Results ---
-for model, gg_values in data_OO.items():
-    axs[0].plot(x_positions, gg_values, marker='o', label=model)
-
-axs[0].set_title("OO Results: Gender Gap (GG) across Methods")
-axs[0].set_xlabel("Method")
-axs[0].set_ylabel("Gender Gap (GG)")
-axs[0].set_xticks(x_positions)
-axs[0].set_xticklabels(method_labels, rotation=30)
-axs[0].grid(True)
-axs[0].legend()
-
-# --- Subplot 2: OP Results ---
-for model, gg_values in data_OP.items():
-    axs[1].plot(x_positions, gg_values, marker='o', label=model)
-
-axs[1].set_title("OP Results: Gender Gap (GG) across Methods")
-axs[1].set_xlabel("Method")
-axs[1].set_xticks(x_positions)
-axs[1].set_xticklabels(method_labels, rotation=30)
-axs[1].grid(True)
-axs[1].legend()
-
-# Layout adjustment and save
+# Plotting OO results
+plt.figure(figsize=(10, 5))
+plt.bar(x_positions - bar_width/2, data_OO["(PaliGemma2, CDA)"], width=bar_width, label="CDA")
+plt.bar(x_positions + bar_width/2, data_OO["(PaliGemma2, DAUDoS)"], width=bar_width, label="DAUDoS")
+plt.xticks(x_positions, method_labels, rotation=45)
+plt.title("OO Results")
+plt.ylabel("Score")
+plt.legend()
 plt.tight_layout()
-plt.savefig('../visualizations/PaliGemma2_OO_OP_results_subplot.png')
-plt.show()
+plt.savefig('../visualizations/PaliGemma2_OO.png')
+
+
+# Plotting OP results
+plt.figure(figsize=(10, 5))
+plt.bar(x_positions - bar_width/2, data_OP["(PaliGemma2, CDA)"], width=bar_width, label="CDA")
+plt.bar(x_positions + bar_width/2, data_OP["(PaliGemma2, DAUDoS)"], width=bar_width, label="DAUDoS")
+plt.xticks(x_positions, method_labels, rotation=45)
+plt.title("OP Results")
+plt.ylabel("Score")
+plt.legend()
+plt.tight_layout()
+plt.savefig('../visualizations/PaliGemma2_OP.png')
+
