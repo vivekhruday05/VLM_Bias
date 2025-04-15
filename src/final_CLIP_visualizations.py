@@ -20,7 +20,7 @@ data_OP = {
 bar_width = 0.35
 
 # First plot: OO setting
-plt.figure(figsize=(7, 5))
+plt.figure(figsize=(10, 5))
 plt.bar(x_positions - bar_width/2, data_OO["(CLIP, CDA)"], width=bar_width, label="(CLIP, CDA)")
 plt.bar(x_positions + bar_width/2, data_OO["(CLIP, DAUDoS)"], width=bar_width, label="(CLIP, DAUDoS)")
 plt.title("OO Setting")
@@ -31,7 +31,7 @@ plt.tight_layout()
 plt.savefig('../visualizations/CLIP_OO.png')
 
 # Second plot: OP setting
-plt.figure(figsize=(7, 5))
+plt.figure(figsize=(10, 5))
 plt.bar(x_positions - bar_width/2, data_OP["(CLIP, CDA)"], width=bar_width, label="(CLIP, CDA)")
 plt.bar(x_positions + bar_width/2, data_OP["(CLIP, DAUDoS)"], width=bar_width, label="(CLIP, DAUDoS)")
 plt.title("OP Setting")
